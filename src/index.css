@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 20px / 1 sans-serif;
 }
 
 html {
@@ -11,6 +11,7 @@ body {
   min-height: 100%;
   background-color: rgb(60, 64, 67);
   color: white;
+  font-family: 'Bebas Neue', cursive;
 }
 
 a:link {
@@ -22,11 +23,13 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: darkred;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .header {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 img {
@@ -42,66 +45,47 @@ ul {
 }
 
 .bandNames {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-right: 0.1rem;
-  border: 2px solid cyan;
   align-self: center;
   display: flex;
   width: auto;
   padding: 1rem;
+  color: darkred;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .bandDescribe {
-  border: 2px solid cyan;
   margin-left: 3rem;
   text-align: center;
-  width: 500px;
+  width: auto;
   display: flex;
   align-self: center;
   justify-items: left;
   text-align: justify;
+  margin-right: 2rem;
 }
 
-.dmb {
-  border: 2px solid darkred;
-  display: flex;
-  text-align: center;
-  width: auto;
-}
-
-.dmb img {
-  border: 1px solid white;
-  border-radius: 3px;
-  margin-top: 1rem;
-}
-
-.anjunabeats {
-  border: 2px solid darkblue;
-  display: flex;
-  text-align: center;
-  width: auto;
-}
-
-.anjunabeats img {
-  border: 1px solid white;
-  border-radius: 3px;
-  margin-top: 1rem;
-}
-
+.dmb,
+.anjunabeats,
 .gramatik {
-  border: 2px solid darkgoldenrod;
   display: flex;
   text-align: center;
   width: auto;
+  justify-content: center;
 }
 
+.dmb img,
+.anjunabeats img,
 .gramatik img {
   border: 1px solid white;
   border-radius: 3px;
   margin-top: 1rem;
 }
 
-.bandHP {
-  display: flex;
-  justify-content: center;
+.names {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: darkred;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

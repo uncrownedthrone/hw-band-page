@@ -10,7 +10,7 @@ const BandPage = props => {
       {bands.albums.map(band => {
         return (
           <div>
-            <header>{band.title}</header>
+            <header className='names'>{band.title}</header>
             <img src={band.image} alt='' />
             <p>{band.info}</p>
           </div>

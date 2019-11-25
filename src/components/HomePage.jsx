@@ -4,10 +4,10 @@ const HomePage = () => {
   return (
     <>
       <section className='header'>
-        <h1>My Favorite Bands</h1>
+        <h1>Justin's Favorite Bands</h1>
       </section>
       <section className='bandHP'>
-        <h2 className='bandNames'>Dave Matthews Band</h2>
+        <h2 className='bandNames'>Dave Matthews Band - Started in 1991</h2>
         <p className='bandDescribe'>
           Dave Matthews Band has been one of my favorite bands since I was
           young. My cousin introduced me to them and as soon as he did, I was
@@ -16,7 +16,7 @@ const HomePage = () => {
         </p>
       </section>
       <section className='bandHP'>
-        <h2 className='bandNames'>Anjunabeats</h2>
+        <h2 className='bandNames'>Anjunabeats - Started in 2000</h2>
         <p className='bandDescribe'>
           Without Anjunabeats, I would not be able to code. Featuring a vast
           group of contributing artists, the Anjunabeats label/band creates
@@ -25,7 +25,7 @@ const HomePage = () => {
         </p>
       </section>
       <section className='bandHP'>
-        <h2 className='bandNames'>Gramatik</h2>
+        <h2 className='bandNames'>Gramatik - Started in 2008</h2>
         <p className='bandDescribe'>
           Born Denis Jašarević, the electronic music producer known as Gramatik
           blends hip-hop, rap, and electronic beats to create a wildly engaging
