@@ -9,4 +9,97 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(60, 64, 67);
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  color: white;
+}
+
+.header {
+  text-align: center;
+}
+
+img {
+  height: 30rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  flex-direction: row;
+}
+
+.bandNames {
+  font-size: 1rem;
+  margin-right: 0.1rem;
+  border: 2px solid cyan;
+  align-self: center;
+  display: flex;
+  width: auto;
+  padding: 1rem;
+}
+
+.bandDescribe {
+  border: 2px solid cyan;
+  margin-left: 3rem;
+  text-align: center;
+  width: 500px;
+  display: flex;
+  align-self: center;
+  justify-items: left;
+  text-align: justify;
+}
+
+.dmb {
+  border: 2px solid darkred;
+  display: flex;
+  text-align: center;
+  width: auto;
+}
+
+.dmb img {
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+.anjunabeats {
+  border: 2px solid darkblue;
+  display: flex;
+  text-align: center;
+  width: auto;
+}
+.anjunabeats img {
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+.gramatik {
+  border: 2px solid darkgoldenrod;
+  display: flex;
+  text-align: center;
+  width: auto;
+}
+.gramatik img {
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+.bandHP {
+  display: flex;
+  justify-content: center;
 }
